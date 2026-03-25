@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Work - Pree Mbrofashion</title>
+    <link rel="stylesheet" href="style.css"> <style>
+        /* Specific Styles for Expert Work Page */
+        body {
+            background-color: #fdfdfd; /* Clean light background */
+        }
+        
+        .expert-header {
+            padding: 100px 20px 50px;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('images/expert_banner.jpg'); /* Banner image placeholder */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            margin-top: 100px; /* To avoid sticky header */
+        }
+
+        .expert-header h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+        }
+
+        .expert-gallery {
+            padding: 80px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .item-details {
+            padding: 20px;
+            background: white;
+        }
+
+        .item-details h4 {
+            color: #222;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .item-details p {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .order-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .back-home {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        /* Ensure consistency with image_2.png and image_4.png style */
+        header {
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(5px);
+            z-index: 10000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    </header>
+
+<section class="expert-header">
+    <h1>Our Masterpieces</h1>
+    <p>Premium embroidery work on various fabrics.</p>
+</section>
+
+<section class="expert-gallery">
+    <div class="gallery-item">
+        <img src="images/expert1.jpg" alt="Expert Embroidery Design 1">
+        <div class="item-details">
+            <h4>Intricate Bridal Blouse</h4>
+            <p>Hand embroidery with gold thread and beads on silk fabric.</p>
+            <a href="https://wa.me/918438362237" target="_blank" class="order-btn">Order Now</a>
+        </div>
+    </div>
+    
+    <div class="gallery-item">
+        <img src="images/expert2.jpg" alt="Expert Embroidery Design 2">
+        <div class="item-details">
+            <h4>Premium Cushion Work</h4>
+            <p>Colorful floral pattern embroidery with satin finish.</p>
+            <a href="https://wa.me/918438362237" target="_blank" class="order-btn">Order Now</a>
+        </div>
+    </div>
+    
+    <div class="gallery-item">
+        <img src="images/expert3.jpg" alt="Expert Embroidery Design 3">
+        <div class="item-details">
+            <h4>Designer Saree Border</h4>
+            <p>Detailed peacock motif embroidery on fine cotton saree.</p>
+            <a href="https://wa.me/918438362237" target="_blank" class="order-btn">Order Now</a>
+        </div>
+    </div>
+</section>
+
+<div class="back-home">
+    <a href="index.html">&larr; Back to Home</a>
+</div>
+
+</body>
+</html>

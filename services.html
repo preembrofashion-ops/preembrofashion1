@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Pree Mbrofashion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific Styles for Services Page */
+        .services-header {
+            padding: 150px 20px 60px;
+            text-align: center;
+            background: #fdfdfd;
+        }
+
+        .services-header h1 {
+            font-size: 3em;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 50px 10%;
+            background: #fff;
+        }
+
+        .service-card {
+            background: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: 0.3s;
+            border: 1px solid #eee;
+            text-align: center;
+            padding-bottom: 25px;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            border-color: #25D366;
+        }
+
+        .service-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .service-card h3 {
+            margin: 20px 0 10px;
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .service-card p {
+            padding: 0 20px;
+            color: #666;
+            line-height: 1.6;
+            font-size: 0.95em;
+        }
+
+        .service-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .service-btn:hover {
+            background: #128C7E;
+        }
+
+        @media (max-width: 768px) {
+            .services-grid {
+                padding: 30px 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="images/logo.jpeg">
+        <div>
+            <h2>Pree Mbrofashion</h2>
+            <span>Creative Designs</span>
+        </div>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="contact">📞 +91 8438362237</div>
+</header>
+
+<section class="services-header">
+    <h1>Our Expertise</h1>
+    <p>Premium embroidery services tailored for your special moments.</p>
+</section>
+
+<section class="services-grid">
+    <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=600" alt="Aari Work">
+        <h3>Aari Embroidery</h3>
+        <p>Intricate hand-stitched designs using traditional Aari needles for bridal blouses and sarees.</p>
+        <a href="https://wa.me/918438362237" class="service-btn">Enquire Now</a>
+    </div>
+
+    <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=600" alt="Machine Work">
+        <h3>Machine Embroidery</h3>
+        <p>Precise and fast computer-aided embroidery for uniforms, logos, and bulk fabric orders.</p>
+        <a href="https://wa.me/918438362237" class="service-btn">Enquire Now</a>
+    </div>
+
+    <div class="service-card">
+        <img src="https://images.unsplash.com/photo-1517055745271-860829871587?q=80&w=600" alt="Custom Patches">
+        <h3>Bridal Masterpieces</h3>
+        <p>Exclusive heavy-work bridal collections designed to make your big day unforgettable.</p>
+        <a href="https://wa.me/918438362237" class="service-btn">Enquire Now</a>
+    </div>
+</section>
+
+<footer>
+    <div class="socials">
+        <a href="https://www.instagram.com/pree_mbrofashion" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61586473860986" target="_blank">Facebook</a>
+        <a href="https://wa.me/918438362237" target="_blank">WhatsApp</a>
+    </div>
+    <div class="copyright">&copy; Pree Mbrofashion. All Rights Reserved.</div>
+</footer>
+
+</body>
+</html>

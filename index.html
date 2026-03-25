@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pree Mbrofashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <h3 id="changing-text">Welcome</h3>
+    <p>24/7 Service</p>
+</div>
+
+<header>
+    <div class="logo">
+        <img src="images/logo.jpeg">
+        <div>
+            <h2>Pree Mbrofashion</h2>
+            <span>Creative Designs</span>
+        </div>
+    </div>
+
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+    <div class="contact">
+        📞 +91 8438362237
+    </div>
+</header>
+
+<section class="hero">
+    <div class="overlay">
+        <img src="images/preethi.jpg" class="hero-img">
+        <h1>Pree Mbrofashion</h1>
+        <p>Custom Embroidery Designs</p>
+        <a href="https://wa.me/918438362237" target="_blank" class="btn">
+            Order on WhatsApp
+        </a>
+    </div>
+</section>
+
+<section class="features">
+    <a href="expert-work.html" style="text-decoration: none; color: inherit;">
+        <div class="card">
+            <h3>Expert Work</h3>
+            <p>Professional embroidery designs</p>
+        </div>
+    </a>
+
+    <div class="card">
+        <h3>Fast Delivery</h3>
+        <p>Quick and reliable service</p>
+    </div>
+
+    <div class="card">
+        <h3>Custom Orders</h3>
+        <p>Design as per your needs</p>
+    </div>
+</section>
+
+<section class="designs">
+    <h1>Our Designs</h1>
+    <div class="design-grid">
+        <img src="images/design1.jpg">
+        <img src="images/design2.jpg">
+        <img src="images/design3.jpg">
+    </div>
+</section>
+
+<section class="reviews">
+    <h2>Customer Love</h2>
+    <div class="review-container">
+        <div class="review-card">
+            <p>"The bridal blouse embroidery was so intricate and perfect. Highly recommend!"</p>
+            <h4>- Anitha R.</h4>
+        </div>
+        <div class="review-card">
+            <p>"Quick response and very creative designs. My daughter loved the frock work."</p>
+            <h4>- Kavitha S.</h4>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="socials">
+        <a href="https://www.instagram.com/pree_mbrofashion?igsh=eGE1cmJ2eHZ5aTM=" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61586473860986" target="_blank">Facebook</a>
+        <a href="https://wa.me/918438362237" target="_blank">WhatsApp</a>
+    </div>
+    <div class="copyright">
+        &copy; Pree Mbrofashion. All Rights Reserved.
+    </div>
+</footer>
+
+<script>
+const words = ["Welcome to Pree Mbrofashion","Custom Embroidery Available","Order Now on WhatsApp"];
+let i = 0;
+const text = document.getElementById("changing-text");
+
+setInterval(() => {
+    i = (i + 1) % words.length;
+    text.textContent = words[i];
+}, 2000);
+</script>
+
+</body>
+</html>

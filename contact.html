@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pree Mbrofashion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Contact Specific Styles */
+        .contact-container {
+            padding: 150px 10% 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+
+        .contact-info h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .info-box {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .info-box .icon {
+            font-size: 1.5em;
+            background: #f0fdf4;
+            padding: 15px;
+            border-radius: 50%;
+            color: #25D366;
+        }
+
+        /* Contact Form Styles */
+        .contact-form {
+            background: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+            border: 1px solid #eee;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            outline: none;
+            font-size: 1em;
+        }
+
+        .contact-form input:focus, .contact-form textarea:focus {
+            border-color: #25D366;
+        }
+
+        .submit-btn {
+            background: #25D366;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .submit-btn:hover {
+            background: #128C7E;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+                padding-top: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="images/logo.jpeg" alt="Logo">
+        <div>
+            <h2>Pree Mbrofashion</h2>
+            <span>Creative Designs</span>
+        </div>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="contact">📞 +91 8438362237</div>
+</header>
+
+<section class="contact-container">
+    <div class="contact-info">
+        <h1>Get In Touch</h1>
+        <p>Enquiry panna call pannunga illana WhatsApp-la unga requirements-ai anupunga. Naanga seekiram response pannuvom!</p>
+        
+        <div class="info-box">
+            <div class="icon">📍</div>
+            <div>
+                <h4>Our Location</h4>
+                <p>Chennai, Tamil Nadu, India</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <div class="icon">💬</div>
+            <div>
+                <h4>WhatsApp</h4>
+                <p>+91 8438362237</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <div class="icon">📸</div>
+            <div>
+                <h4>Instagram</h4>
+                <p>@pree_mbrofashion</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h3>Send a Message</h3>
+        <br>
+        <form action="mailto:your-email@gmail.com" method="post" enctype="text/plain">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email / Phone Number" required>
+            <textarea rows="5" placeholder="Tell us about your design needs (Bridal/Painting/Aari)..." required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="socials">
+        <a href="https://www.instagram.com/pree_mbrofashion" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61586473860986" target="_blank">Facebook</a>
+        <a href="https://wa.me/918438362237" target="_blank">WhatsApp</a>
+    </div>
+    <div class="copyright">&copy; Pree Mbrofashion. All Rights Reserved.</div>
+</footer>
+
+</body>
+</html>
